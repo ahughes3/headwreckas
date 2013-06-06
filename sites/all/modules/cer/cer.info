@@ -1,0 +1,15 @@
+name = Corresponding Entity References
+description = Syncs the entity references between entity types which have an entityreference to each other.
+core = 7.x
+package = Fields
+dependencies[] = entityreference
+dependencies[] = ctools
+
+files[] = handler.inc
+files[] = tests/crud.test
+; Information added by drupal.org packaging script on 2013-04-17
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "cer"
+datestamp = "1366202688"
+
